@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&family=Bigelow+Rules&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bellefair&display=swap");
+
+h1 {
+  font-family: "Bellefair", serif;
+  letter-spacing: 0px;
+  color: red;
+}
+
+h2 {
+  font-family: "Bellefair", serif;
+  font-size: 100px;
+}
+
+h3 {
+  font-family: "Bellefair", serif;
+  font-size: 56px;
+}
+
+h4 {
+  font-family: "Bellefair", serif;
+ 
+}
+
+h5 {
+  font-family: "Barlow Condensed", serif;
+  font-size: 18px;
+}
+
+h6{
+  font-family: "Barlow Condensed", serif;
+  font-size: 14px;
+}
+
+.subheading1 {
+  font-family: "Bellefair", serif;
+  font-size: 28px;
+}
+
+#subHeading {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  line-height: auto;
+}
+
+.navText {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2.7px;
+}
+p {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 18px;
+  line-height: 32px;
+}
+@screen sm {
+  h5, #role {
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    font-family: "Bellefair", serif;
+  }
+  #termin{
+    font-family: "Barlow Condensed", sans-serif;
+  font-size: 14px;
+  letter-spacing: 2.36px;
+  line-height: auto;
+
+  }
+
+  h1 {
+    font-size: 80px;
+    line-height: 100px;
+  }
+
+  h4 {
+    font-size: 20px;
+    letter-spacing: 1.25px;
+    /* line-height: auto; */
+  }
+  h3{
+  font-size: 28px;
+
+  }
+
+  h2{
+    font-size: 56px;
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+ 
+  h6{
+    letter-spacing: 2.36px
+  }
+
+  #name{
+    font-size: 24px;
+  font-family: "Bellefair", serif;
+
+  }
+  #fig{
+  font-family: "Bellefair", serif;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  }
+   
+}
+
+@screen lg {
+  h5 {
+    font-size: 20px;
+    letter-spacing: 3.38px;
+  }
+  h1 {
+    font-size: 150px;
+    line-height: 150px;
+  }
+  h2{
+  font-size: 80px;
+
+  }
+  p {
+      font-size: 16px;
+    line-height: 28px;
+  }
+  h4 {
+    letter-spacing: 2px;
+    font-size: 32px;
+    /* line-height: auto; */
+  }
+  h6{
+    font-size: 16px;
+    letter-spacing: 2.7px;
+  }
+  h3{
+    font-size: 28px;
+  
+  }
+  #role{
+    font-size: 24px;
+    font-family: "Bellefair", serif;
+  }
+  #name{
+    font-size: 40px;
+    font-family: "Bellefair", serif;
+
+  }
+  #subHeading{
+      font-size: 14px;
+      letter-spacing: 2.36px;
+  }
+  #fig{
+    font-family: "Bellefair", serif;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+  
+  }
+  #termin{
+      font-family: "Barlow Condensed", sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    line-height: auto;
+  
+  }
+    
+}
+
+@screen xl{
+    h5{
+        font-size: 28px;
+        letter-spacing: 4.72px;
+
+    }
+    h1{
+      font-size: 150px;
+
+        line-height: auto;
+    }
+    p{
+      font-size: 18px;
+      line-height: 32px;
+      letter-spacing:0px;
+    }
+    h4{
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    #subHeading{
+      font-size: 16px;
+      letter-spacing: 2.7px;
+    }
+    h6{
+   font-size: 16px;
+   letter-spacing: 2.7px;
+
+    }
+    h2{
+      font-size: 100px;
+    }
+    h3{
+  font-size: 28px;
+
+    }
+    #name{
+    font-size: 56px;
+    font-family: "Bellefair", serif;
+  
+    }
+    .fig{
+      font-family: "Bellefair", serif;
+      font-size: 32px;
+      letter-spacing: 2px;
+    }
+    
+}

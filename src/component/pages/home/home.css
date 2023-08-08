@@ -1,0 +1,24 @@
+#home-container {
+    /* height: 100vh; */
+    /* width: 100vh; */
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/background-home-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+@screen lg { 
+  #home-container{
+    background-image: url(./images/background-home-tablet.jpg);
+
+  }
+}
+
+@screen xl{
+  #home-container{
+    background-image: url(./images/background-home-desktop.jpg);
+
+  }
+}

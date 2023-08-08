@@ -1,0 +1,28 @@
+#technology-container {
+    /* height: 100vh; */
+    /* width: 100vh; */
+    /* margin: 0;
+    padding: 0; */
+    background-image: url(./images/background-technology-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+@screen lg { 
+  #technology-container{
+    background-image: url(./images/background-technology-tablet.jpg);
+
+  }
+}
+
+@screen xl{
+  #technology-container{
+    background-image: url(./images/background-technology-desktop.jpg);
+
+  }
+  #content{
+    height: 70vh;
+  }
+}
+ 
